@@ -1,0 +1,2 @@
+# 0002-Enable-ADUserAccountByDate
+This script enables user accounts based on the value of it's extendedAttribute11. Any extensionAttribute can be used, but the corresponding lines indicating the attribute used will have to be updated. This value is a string data type representing the date that the user account is to be activated. It must use the format: YYYY/MM/DD, and MM and DD values must be padded, where 2016/1/1 is represented as 2016/01/01. The script can be scheduled to run daily as a scheduled task.
